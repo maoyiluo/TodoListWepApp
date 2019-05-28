@@ -1,0 +1,101 @@
+#header{
+	background-color: steelblue;
+	width: 500px;
+	padding: 0 30px;
+}
+
+#inputContainer{
+	display: none;
+}
+
+input{
+	width: 100%;
+	border: 0;
+	background-color: #f7f7f7;
+	padding: 20px 30px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+input:focus{
+	background-color: white;
+	font-size: 18px;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+h1{
+	display: inline-block;
+	size: 1em;
+	margin: 0 0;
+	text-transform: uppercase;
+	font-size: 1.7em;
+	color:white;
+	font-weight: 400;
+	padding: 10px 0;
+	letter-spacing: 2px;
+}
+
+body {
+	background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Sarabun', sans-serif;
+}
+
+.windows{
+	width: 560px;
+	margin:100px 30%;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+p{
+	float: left;
+	width: 560px;
+	height: 40px;
+	padding:0 ;
+	margin: 0 0;
+	background: white;
+	border: 0;
+}
+
+p:nth-child(even){
+	background: #f7f7f7;
+}
+
+.done{
+	text-decoration:line-through;
+	color:gray;
+}
+
+.deleteBtn{
+	width: 0;
+	float: left;
+	padding: 9.5px 0;
+	font-size: 1em;
+	color: white;
+	display: none;
+	background: #e74c3c;
+	text-align: center;
+	display: inline-block;
+	opacity: 0;
+	transition: 0.2s linear;
+}
+
+p:hover .deleteBtn{
+	width:50px;
+	opacity: 1;
+}
+
+.task{
+	margin: 0;
+	padding: 10px 30px;
+	display: inline-block;
+}
+
+
+#plusBtn{
+	font-size: 1.7em;
+	color: white;
+	float: right;
+	padding: 10px 0;
+}
